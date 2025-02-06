@@ -12,7 +12,8 @@ export default {
                 ...darkColors
             },
             fontFamily: {
-                'level-up': [ '"Level Up"', 'sans-serif' ]
+                'bungee': [ 'bungeeregular', 'sans-serif' ],
+                'slab': [ 'alfa_slab_oneregular', 'sans-serif' ]
             },
             screens: {
                 xs: '400px',

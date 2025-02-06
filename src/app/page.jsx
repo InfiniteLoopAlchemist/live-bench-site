@@ -25,9 +25,9 @@ export default function Home() {
             </div>
             
             <a
-                href="https://apps.apple.com/us/app/movie-or-show/id6738360998"
+                href="https://apps.apple.com/us/app/live-bench-ai-benchmarks/id6741484992"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
             
             >
                 <img
@@ -41,8 +41,8 @@ export default function Home() {
                 Add Your Favorite Movies and Shows
             </h2>
             <img
-                src="/add-search-shows-movies.webp"
-                className="w-[75%] xs:w-[80%] mb-2"
+                src="/live-bench-ai-model-results.webp"
+                className="w-[75%] xs:w-[80%] rounded-2xl mb-2"
                 alt="Add Movies and Shows"
             />
             
@@ -50,26 +50,32 @@ export default function Home() {
                 Just Hit Random Our AI Will Do the Rest!
             </h2>
             <img
-                src="/just-hit-random-our-Ai-will-select-a-movie-or-show-from-your-list.webp"
-                className="w-[75%] xs:w-[80%] mb-2"
+                src="/live-bench-ai-model-results2.webp"
+                className="w-[75%] xs:w-[80%] rounded-2xl mb-2"
                 alt="Just hit Random Our AI Will Do the Rest!"
             />
             
-            <h2 className="font-level-up text-shadow my-8 text-center text-deleteButtonBackground text-lg">
-                You can Delete your Movies and Shows
-            </h2>
+            <div className="font-level-up text-shadow my-8 text-center text-deleteButtonBackground text-lg">
+            
+            </div>
             <img
-                src="/delete-movie-show.webp"
-                className="w-[75%] xs:w-[80%] mb-2"
+                src="/Alan's-conservative-countdown-to-AGI.webp"
+                className="w-[75%] rounded-2xl xs:w-[80%] mb-2"
                 alt="You can Delete Your Movies And Shows"
             />
-            
+            <div className="font-level-up text-shadow my-8 text-center text-deleteButtonBackground text-lg">
+            </div>
+            <img
+                src="/live-bench-ai-model-results-full-ipad-support.webp"
+                className="w-[75%] rounded-2xl xs:w-[80%] mb-2"
+                alt="You can Delete Your Movies And Shows"
+            />
             <ShareButtons/>
             
             <a
-                href="https://apps.apple.com/us/app/movie-or-show/id6738360998"
+                href="https://apps.apple.com/us/app/live-bench-ai-benchmarks/id6741484992"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
                 className="mt-5"
             >
                 <img

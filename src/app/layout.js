@@ -17,23 +17,30 @@ export default function RootLayout( { children } ) {
             {/* Preload Fonts */ }
             <link
                 rel="preload"
-                href="/fonts/Levelup.woff2"
+                href="/fonts/alfaslabone-regular-webfont.woff2"
                 as="font"
                 type="font/woff2"
                 crossOrigin="anonymous"
             />
             <link
                 rel="preload"
-                href="/fonts/Levelup.woff"
+                href="/fonts/alfaslabone-regular-webfont.woff"
                 as="font"
                 type="font/woff"
                 crossOrigin="anonymous"
             />
             <link
                 rel="preload"
-                href="/fonts/Levelup.ttf"
+                href="/fonts/bungee-regular-webfont.woff2"
                 as="font"
-                type="font/ttf"
+                type="font/woff2"
+                crossOrigin="anonymous"
+            />
+            <link
+                rel="preload"
+                href="/fonts/bungee-regular-webfont.woff"
+                as="font"
+                type="font/woff"
                 crossOrigin="anonymous"
             />
             {/* Favicon and Meta */ }
@@ -53,11 +60,11 @@ export default function RootLayout( { children } ) {
             <div className="max-w-xl w-full flex flex-col items-center pt-4 bg-backgroundOnDark rounded-md shadow-lg">
                 <img src="/live-bench-app-logo.webp" alt="Live Bench App Logo" className="h-32   mb-5 rounded-2xl"/>
                 <div className="flex flex-col justify-evenly items-center">
-                    <h1 className="font-level-up text-shadow text-primary text-xl xs:text-2xl mb-4">
+                    <h1 className="font-bungee text-shadow text-primary text-xl xs:text-2xl mb-4">
                         Live Bench App
                     </h1>
                     <ClientLayout>{ children }</ClientLayout>
-                    <footer className="text-xs font-level-up text-primary py-4 flex justify-around pb-36 w-full">
+                    <footer className="text-base font-bungee text-primary py-4 flex justify-around pb-36 w-full">
                         <Link href="/">Home</Link>
                         <Link href="/TOS">TOS</Link>
                         <Link href="/PrivacyPolicy">Privacy Policy</Link>

@@ -20,12 +20,12 @@ export const lightColors = {
 };
 
 export const darkColors = {
-    primary: '#035096',
-    secondary: '#990000',
+    primary: '#DFB265',
+    secondary: '#035096',
     white: '#EAE0C8',
     background: '#0A0A0A',
     backgroundOn: '#262626',
-    backgroundOnDark: '#171717',
+    backgroundOnDark: '#035096',
     border: '#282828',
     box: '#2D2D2D',
     boxOn: '#525252',
@@ -34,6 +34,6 @@ export const darkColors = {
     disabledThumb: '#676767',
     onToggle: '#808080',
     onThumb: '#9A9A9A',
-    deleteButtonBackground: '#990000',
+    deleteButtonBackground: '#035096',
     disabledButtonBackground: '#625F5F'
 };
