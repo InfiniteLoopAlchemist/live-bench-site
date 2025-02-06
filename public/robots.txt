@@ -1,0 +1,37 @@
+# Allow Googlebot (Google)
+User-agent: Googlebot
+Disallow:
+
+# Allow Bingbot (Bing)
+User-agent: Bingbot
+Disallow:
+
+# Allow Slurp (Yahoo)
+User-agent: Slurp
+Disallow:
+
+# Allow DuckDuckBot (DuckDuckGo)
+User-agent: DuckDuckBot
+Disallow:
+
+# Allow Baiduspider (Baidu)
+User-agent: Baiduspider
+Disallow:
+
+# Allow YandexBot (Yandex)
+User-agent: YandexBot
+Disallow:
+
+# Allow Facebook's scraper
+User-agent: facebookexternalhit
+Disallow:
+
+# Allow SearchGPT
+User-agent: SearchGPT
+Disallow:
+
+# Disallow all other bots from accessing sensitive directories
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /admin/
