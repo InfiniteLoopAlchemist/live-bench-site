@@ -1,4 +1,5 @@
-/** @type {import('tailwindcss').Config} */
+import { darkColors } from './colors.js';
+
 export default {
     content: [
         './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -8,10 +9,16 @@ export default {
     theme: {
         extend: {
             colors: {
-                background: 'var(--background)',
-                foreground: 'var(--foreground)'
+                ...darkColors
+            },
+            fontFamily: {
+                'level-up': [ '"Level Up"', 'sans-serif' ]
+            },
+            screens: {
+                xs: '400px',
+                xsxl: '500px'
             }
-        }
+        },
     },
     plugins: []
-};
+} 

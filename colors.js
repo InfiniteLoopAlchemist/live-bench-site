@@ -1,7 +1,7 @@
 // colors.ts
 
 export const lightColors = {
-    primary: '#FFD902',
+    primary: '#035096',
     secondary: '#990000',
     white: '#EAE0C8',
     background: '#2B1E15',
@@ -20,7 +20,7 @@ export const lightColors = {
 };
 
 export const darkColors = {
-    primary: '#FFD902',
+    primary: '#035096',
     secondary: '#990000',
     white: '#EAE0C8',
     background: '#0A0A0A',

@@ -5,9 +5,9 @@ import Link from 'next/link';
 import ClientLayout from '../components/ClientLayout';
 
 export const metadata = {
-    title: 'Movie or Show App',
+    title: 'Live Bench App',
     description:
-        'Can\'t decide what to watch? Choose your favorite movies or shows, then randomly select one to watch.'
+        'Get latest livebench.ai updates and latest AGI countdown with the Live Bench App!'
 };
 
 export default function RootLayout( { children } ) {
@@ -38,34 +38,26 @@ export default function RootLayout( { children } ) {
             />
             {/* Favicon and Meta */ }
             <link rel="icon" href="/favicon.ico"/>
-            <meta property="og:title" content="Movie or Show App"/>
+            <meta property="og:title" content="Live Bench App"/>
             <meta
                 property="og:description"
-                content="Can't decide what to watch? Let AI choose for you."
+                content="Get latest livebench.ai updates and latest AGI countdown with the Live Bench App!"
             />
-            <meta property="og:image" content="/MovieOrShowLogoShare.webp"/>
-            <meta property="og:url" content="https://movieorshow.app"/>
+            <meta property="og:image" content="/live-bench-app-logo.webp"/>
+            <meta property="og:url" content="https://livebench.app"/>
             <meta property="og:type" content="website"/>
             <meta name="twitter:card" content="summary_large_image"/>
         </head>
         <body className="bg-background antialiased">
-        <noscript>
-            <iframe
-                src="https://www.googletagmanager.com/ns.html?id=GTM-M6V4PJFF"
-                height="0"
-                width="0"
-                style={ { display: 'none', visibility: 'hidden' } }
-            ></iframe>
-        </noscript>
         <div className="flex flex-col justify-center items-center bg-background">
-            <div className="max-w-xl w-full flex flex-col items-center bg-backgroundOnDark rounded-md shadow-lg">
-                <img src="/MovieOrShowLogo.webp" alt="App Logo" className="h-32 mb-5"/>
+            <div className="max-w-xl w-full flex flex-col items-center pt-4 bg-backgroundOnDark rounded-md shadow-lg">
+                <img src="/live-bench-app-logo.webp" alt="Live Bench App Logo" className="h-32   mb-5 rounded-2xl"/>
                 <div className="flex flex-col justify-evenly items-center">
                     <h1 className="font-level-up text-shadow text-primary text-xl xs:text-2xl mb-4">
-                        Movie or Show App
+                        Live Bench App
                     </h1>
                     <ClientLayout>{ children }</ClientLayout>
-                    <footer className="text-xs font-level-up text-white py-4 flex justify-around pb-36 w-full">
+                    <footer className="text-xs font-level-up text-primary py-4 flex justify-around pb-36 w-full">
                         <Link href="/">Home</Link>
                         <Link href="/TOS">TOS</Link>
                         <Link href="/PrivacyPolicy">Privacy Policy</Link>
