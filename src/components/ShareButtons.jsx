@@ -4,10 +4,10 @@ import React from 'react';
 import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, RedditIcon, RedditShareButton, TumblrIcon, TumblrShareButton, TwitterIcon, TwitterShareButton, WhatsappIcon, WhatsappShareButton } from 'next-share';
 
 const ShareButtons = () => {
-    const siteUrl = 'https://movieorshow.app'; // Replace with your actual site URL
-    const title = 'Check out Movie or Show App!';
-    const hashtag = '#movieorshow';
-    const emailSubject = 'Check out Movie or Show App!';
+    const siteUrl = 'https://livebench.app'; // Replace with your actual site URL
+    const title = 'Check out Live Bench an APP that has the latest AI model benchmarks!';
+    const hashtag = '#livebench';
+    const emailSubject = 'Check out Live Bench an APP that has the latest AI model benchmarks!!';
     const emailBody = 'Here\'s an interesting website I found:';
     
     return (
