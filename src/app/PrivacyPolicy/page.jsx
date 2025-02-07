@@ -56,51 +56,6 @@ export default function PrivacyPolicy() {
                     We do not knowingly collect personal information from children.
                 </p>
                 
-                {/* Section 6: AdMob Disclosure */ }
-                <h2 className={ titleClass }>5. AdMob Disclosure</h2>
-                <p className={ textClass }>
-                    We might one day integrate Google AdMob to display advertisements within the App.
-                    AdMob may collect non-personally identifiable information to serve relevant ads and improve ad performance.
-                    This data includes device identifiers, ad interaction data, and general usage statistics.
-                </p>
-                <p className={ textClass }>Data Collection by AdMob:</p>
-                <ul className="list-disc pl-5">
-                    <li className={ textClass }>
-                        <strong>Device Information:</strong> Includes device type, operating system, and device identifiers.
-                    </li>
-                    <li className={ textClass }>
-                        <strong>Usage Data:</strong> Such as app interactions and ad interactions to analyze user behavior.
-                    </li>
-                    <li className={ textClass }>
-                        <strong>Non-Personal Identifiers:</strong> Aggregated and anonymized data that does not personally
-                        identify individual users.
-                    </li>
-                </ul>
-                <p className={ textClass }>Purpose of Data Collection:</p>
-                <ul className="list-disc pl-5">
-                    <li className={ textClass }>
-                        <strong>Advertising:</strong> To deliver personalized advertisements and measure the effectiveness of ad campaigns.
-                    </li>
-                    <li className={ textClass }>
-                        <strong>Analytics:</strong> To understand user interactions with ads and improve ad targeting.
-                    </li>
-                </ul>
-                <p className={ textClass }>Data Sharing:</p>
-                <p className={ textClass }>
-                    The data collected through AdMob is shared with Google for the purposes outlined above.
-                    We do not associate this data with personally identifiable information unless explicitly provided by the user.
-                </p>
-                <p className={ textClass }>User Control:</p>
-                <p className={ textClass }>
-                    Users can manage their ad preferences and opt out of personalized ads by visiting the Google Ads Settings page.
-                    Additionally, users can disable interest-based ads on their device settings.
-                </p>
-                <p className={ textClass }>Data Tied to User ID:</p>
-                <p className={ textClass }>
-                    Any data collected by AdMob is not tied to your user ID within the App.
-                    We ensure that your personal identity remains confidential and that advertising data is used solely
-                    for enhancing your app experience through relevant ads.
-                </p>
                 
                 {/* Section 7: Changes to This Privacy Policy */ }
                 <h2 className={ titleClass }>6. Changes to This Privacy Policy</h2>
