@@ -6,18 +6,12 @@ export default function Home() {
     
     return (
         <>
-            <h2 className="font-level-up text-shadow mb-4 text-primary text-lg text-center xs:text-xl">
-                Can't Decide What to Watch?
+            <h2 className="font-bungee text-shadow mb-4 text-primary text-lg text-center xs:text-xl">
+                Upto Date AI Benchmarks and AGI Countdown
             </h2>
-            <h2 className="font-level-up text-shadow mb-4 text-center text-text text-lg">
-                Search for your favorite movies and shows and add them to a list.
-            </h2>
-            
-            <h2 className="font-level-up text-shadow mb-4 text-center text-text text-md">
-                Hit the Random Button our AI selects a movie or show from your selection.
-            </h2>
-            <h2 className="font-level-up text-shadow mb-4 text-center text-deleteButtonBackground text-lg">
-                Watch on your favorite streaming provider.
+            <h2 className="font-slab  px-3 mb-4 text-center text-text text-base">
+                
+                Get the latest Ai model benchmarks from livebench.ai and the latest AGI countdown with the Live Bench App!
             </h2>
             
             <div className="flex flex-col justify-evenly my-6 items-center w-full xs:w-96">
@@ -37,38 +31,38 @@ export default function Home() {
                 />
             </a>
             
-            <h2 className="font-level-up text-shadow my-8 text-primary text-lg text-center xs:text-xl w-56 xs:w-full">
-                Add Your Favorite Movies and Shows
-            </h2>
+            <div className="font-level-up text-shadow mb-4 text-primary text-lg text-center xs:text-xl w-56 xs:w-full">
+            
+            </div>
             <img
                 src="/live-bench-ai-model-results.webp"
                 className="w-[75%] xs:w-[80%] rounded-2xl mb-2"
-                alt="Add Movies and Shows"
+                alt="Livebench.ai Ai Benchmarks"
             />
             
-            <h2 className="font-level-up text-shadow my-8 text-primary text-lg text-center xs:text-xl w-56 xs:w-full">
-                Just Hit Random Our AI Will Do the Rest!
-            </h2>
+            <div className="font-level-up text-shadow mb-4 text-primary text-lg text-center xs:text-xl w-56 xs:w-full">
+            
+            </div>
             <img
                 src="/live-bench-ai-model-results2.webp"
                 className="w-[75%] xs:w-[80%] rounded-2xl mb-2"
-                alt="Just hit Random Our AI Will Do the Rest!"
+                alt="Press the table header sort"
             />
             
-            <div className="font-level-up text-shadow my-8 text-center text-deleteButtonBackground text-lg">
+            <div className="font-level-up text-shadow my-4 text-center text-deleteButtonBackground text-lg">
             
             </div>
             <img
                 src="/Alan's-conservative-countdown-to-AGI.webp"
                 className="w-[75%] rounded-2xl xs:w-[80%] mb-2"
-                alt="You can Delete Your Movies And Shows"
+                alt="Alan's conservative countdown AGI"
             />
-            <div className="font-level-up text-shadow my-8 text-center text-deleteButtonBackground text-lg">
+            <div className="font-level-up text-shadow my-4 text-center text-deleteButtonBackground text-lg">
             </div>
             <img
                 src="/live-bench-ai-model-results-full-ipad-support.webp"
                 className="w-[75%] rounded-2xl xs:w-[80%] mb-2"
-                alt="You can Delete Your Movies And Shows"
+                alt="Full iPad support"
             />
             <ShareButtons/>
             
@@ -85,7 +79,7 @@ export default function Home() {
                 />
             </a>
             
-            <h3 className="font-level-up text-shadow my-4 text-deleteButtonBackground text-lg text-center xs:text-xl">
+            <h3 className="font-slab text-shadow my-4 text-white text-lg text-center xs:text-xl">
                 Coming to the Google Play Store soon. So bookmark this page and check back!
             </h3>
         </>
