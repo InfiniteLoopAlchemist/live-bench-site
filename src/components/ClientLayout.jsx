@@ -69,32 +69,12 @@ export default function ClientLayout( { children } ) {
         <>
             { analyticsEnabled && (
                 <>
-                    <script>
-                        { `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-M6V4PJFF');` }
-                    </script>
+                
                 </>
             ) }
             
             { analyticsEnabled && (
                 <>
-                    <Script
-                        async
-                        id="clarity-tracking"
-                        strategy="lazyOnload"
-                        dangerouslySetInnerHTML={ {
-                            __html: `
-                (function(c,l,a,r,i,t,y){
-                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-                })(window, document, "clarity", "script", "p2b11t4dsr");
-              `
-                        } }
-                    />
                     
                     <Script
                         id="google-analytics-script"
@@ -111,24 +91,7 @@ export default function ClientLayout( { children } ) {
             ` }
                     </Script>
                     
-                    <Script
-                        id="facebook-pixel-script"
-                        strategy="lazyOnload"
-                        dangerouslySetInnerHTML={ {
-                            __html: `
-                !function(f,b,e,v,n,t,s)
-                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-                  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-                  n.queue=[];t=b.createElement(e);t.async=!0;
-                  t.src=v;s=b.getElementsByTagName(e)[0];
-                  s.parentNode.insertBefore(t,s)}(window, document,'script',
-                'https://connect.facebook.net/en_US/fbevents.js');
-                fbq('init', '864523682518320');
-                fbq('track', 'PageView');
-              `
-                        } }
-                    />
+                    
                     <noscript
                         id="facebook-pixel-noscript"
                         dangerouslySetInnerHTML={ {
@@ -148,9 +111,9 @@ export default function ClientLayout( { children } ) {
                 declineButtonText="Decline"
                 enableDeclineButton
                 cookieName="userConsent"
-                contentClasses="font-level-up text-white text-xs"
+                contentClasses="font-slab text-white text-xs"
                 style={ { background: '#1A1A1A' } }
-                buttonClasses="font-level-up text-white"
+                buttonClasses="font-bungee text-white"
                 buttonStyle={ {
                     color: '#EAE0C8',
                     fontSize: '13px',
@@ -164,7 +127,7 @@ export default function ClientLayout( { children } ) {
                     color: '#EAE0C8',
                     background: '#990000',
                     fontSize: '13px',
-                    fontFamily: 'Level Up, sans-serif',
+                    fontFamily: 'bungeeregular, sans-serif',
                     border: '2px solid #0F0F0F',
                     borderRadius: '4px',
                     padding: '10px 20px',
@@ -175,7 +138,7 @@ export default function ClientLayout( { children } ) {
                 onAccept={ handleAccept }
             >
                 This website uses cookies to enhance the user experience.
-                <a href="/PrivacyPolicy" className="pl-3 text-[#AE7B5B] font-level-up">
+                <a href="/PrivacyPolicy" className="pl-3 text-primary font-slab">
                     Our Privacy Policy
                 </a>
             </CookieConsent>

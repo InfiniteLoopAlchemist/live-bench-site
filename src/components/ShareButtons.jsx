@@ -11,6 +11,8 @@ const ShareButtons = () => {
     const emailBody = 'Here\'s an interesting website I found:';
     
     return (
+        <div className={ `flex-col` }>
+            <h2 className="font-bungee text-shadow mb-4 text-primary text-lg text-center xs:text-xl">SHARE</h2>
         <div className="flex items-center mt-4 flex-wrap sm:flex-nowrap justify-center gap-8">
             {/* Facebook Share Button */ }
             <FacebookShareButton
@@ -61,6 +63,7 @@ const ShareButtons = () => {
             >
                 <EmailIcon size={ 32 } round/>
             </EmailShareButton>
+        </div>
         </div>
     );
 };
