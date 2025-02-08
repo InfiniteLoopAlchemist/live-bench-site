@@ -1,7 +1,7 @@
 {
   "success": true,
   "count": 56,
-  "lastScraped": "2025-02-07T17:00:21.478Z",
+  "lastScraped": "2025-02-08T00:00:16.089Z",
   "data": [
     {
       "model": "o3-mini-2025-01-31-high",
@@ -676,5 +676,5 @@
       "ifAverage": "36.36"
     }
   ],
-  "lastUpdated": "Last Update 2/7/2025"
+  "lastUpdated": "Last Update 2/8/2025"
 }
