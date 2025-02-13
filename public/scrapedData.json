@@ -1,7 +1,7 @@
 {
   "success": true,
   "count": 56,
-  "lastScraped": "2025-02-08T00:00:16.089Z",
+  "lastScraped": "2025-02-13T17:00:20.891Z",
   "data": [
     {
       "model": "o3-mini-2025-01-31-high",
@@ -208,6 +208,18 @@
       "ifAverage": "68.58"
     },
     {
+      "model": "deepseek-r1-distill-llama-70b",
+      "modelLink": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "organization": "DeepSeek",
+      "globalAverage": "54.50",
+      "reasoningAverage": "67.58",
+      "codingAverage": "51.62",
+      "mathematicsAverage": "58.11",
+      "dataAnalysisAverage": "55.93",
+      "languageAverage": "23.81",
+      "ifAverage": "69.94"
+    },
+    {
       "model": "gemini-1.5-pro-002",
       "modelLink": "https://developers.googleblog.com/en/updated-production-ready-gemini-models-reduced-15-pro-pricing-increased-rate-limits-and-more/",
       "organization": "Google",
@@ -340,18 +352,6 @@
       "ifAverage": "82.67"
     },
     {
-      "model": "deepseek-r1-distill-llama-70b",
-      "modelLink": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-      "organization": "DeepSeek",
-      "globalAverage": "49.66",
-      "reasoningAverage": "67.58",
-      "codingAverage": "50.97",
-      "mathematicsAverage": "58.11",
-      "dataAnalysisAverage": "55.93",
-      "languageAverage": "23.81",
-      "ifAverage": "41.55"
-    },
-    {
       "model": "grok-beta",
       "modelLink": "https://x.ai/blog/api",
       "organization": "xAI",
@@ -412,6 +412,18 @@
       "ifAverage": "63.24"
     },
     {
+      "model": "deepseek-r1-distill-qwen-32b",
+      "modelLink": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+      "organization": "DeepSeek",
+      "globalAverage": "45.55",
+      "reasoningAverage": "52.25",
+      "codingAverage": "33.67",
+      "mathematicsAverage": "59.44",
+      "dataAnalysisAverage": "45.41",
+      "languageAverage": "26.82",
+      "ifAverage": "55.71"
+    },
+    {
       "model": "meta-llama-3.1-70b-instruct-turbo",
       "modelLink": "https://www.together.ai/blog/meta-llama-3-1",
       "organization": "Meta",
@@ -446,18 +458,6 @@
       "dataAnalysisAverage": "48.45",
       "languageAverage": "35.37",
       "ifAverage": "61.88"
-    },
-    {
-      "model": "deepseek-r1-distill-qwen-32b",
-      "modelLink": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
-      "organization": "DeepSeek",
-      "globalAverage": "42.93",
-      "reasoningAverage": "52.25",
-      "codingAverage": "32.85",
-      "mathematicsAverage": "59.36",
-      "dataAnalysisAverage": "45.41",
-      "languageAverage": "26.82",
-      "ifAverage": "40.92"
     },
     {
       "model": "mistral-small-2501",
@@ -676,5 +676,5 @@
       "ifAverage": "36.36"
     }
   ],
-  "lastUpdated": "Last Update 2/8/2025"
+  "lastUpdated": "Last Update 2/13/2025"
 }
