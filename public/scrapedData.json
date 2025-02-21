@@ -1,7 +1,7 @@
 {
   "success": true,
-  "count": 56,
-  "lastScraped": "2025-02-13T17:00:20.891Z",
+  "count": 57,
+  "lastScraped": "2025-02-21T19:00:15.507Z",
   "data": [
     {
       "model": "o3-mini-2025-01-31-high",
@@ -532,18 +532,6 @@
       "ifAverage": "54.13"
     },
     {
-      "model": "qwen2.5-7b-instruct-turbo",
-      "modelLink": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
-      "organization": "Alibaba",
-      "globalAverage": "34.90",
-      "reasoningAverage": "28.42",
-      "codingAverage": "38.37",
-      "mathematicsAverage": "39.51",
-      "dataAnalysisAverage": "35.22",
-      "languageAverage": "15.80",
-      "ifAverage": "52.11"
-    },
-    {
       "model": "mistral-small-2409",
       "modelLink": "https://huggingface.co/mistralai/Mistral-Small-Instruct-2409",
       "organization": "Mistral AI",
@@ -616,6 +604,30 @@
       "ifAverage": "59.47"
     },
     {
+      "model": "grok-3",
+      "modelLink": "https://x.ai/blog/grok",
+      "organization": "xAI",
+      "globalAverage": "NaN",
+      "reasoningAverage": "-",
+      "codingAverage": "67.38",
+      "mathematicsAverage": "-",
+      "dataAnalysisAverage": "-",
+      "languageAverage": "-",
+      "ifAverage": "-"
+    },
+    {
+      "model": "qwen2.5-7b-instruct-turbo",
+      "modelLink": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "organization": "Alibaba",
+      "globalAverage": "34.90",
+      "reasoningAverage": "28.42",
+      "codingAverage": "38.37",
+      "mathematicsAverage": "39.51",
+      "dataAnalysisAverage": "35.22",
+      "languageAverage": "15.80",
+      "ifAverage": "52.11"
+    },
+    {
       "model": "meta-llama-3.1-8b-instruct-turbo",
       "modelLink": "https://www.together.ai/blog/meta-llama-3-1",
       "organization": "Meta",
@@ -676,5 +688,5 @@
       "ifAverage": "36.36"
     }
   ],
-  "lastUpdated": "Last Update 2/13/2025"
+  "lastUpdated": "Last Update 2/21/2025"
 }
