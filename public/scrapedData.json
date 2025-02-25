@@ -1,7 +1,7 @@
 {
   "success": true,
-  "count": 58,
-  "lastScraped": "2025-02-24T22:00:11.888Z",
+  "count": 59,
+  "lastScraped": "2025-02-25T00:00:22.988Z",
   "data": [
     {
       "model": "o3-mini-2025-01-31-high",
@@ -26,6 +26,18 @@
       "dataAnalysisAverage": "65.47",
       "languageAverage": "65.39",
       "ifAverage": "81.55"
+    },
+    {
+      "model": "claude-3-7-sonnet-thinking",
+      "modelLink": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "organization": "Anthropic",
+      "globalAverage": "74.33",
+      "reasoningAverage": "84.58",
+      "codingAverage": "71.54",
+      "mathematicsAverage": "77.51",
+      "dataAnalysisAverage": "72.79",
+      "languageAverage": "60.96",
+      "ifAverage": "78.62"
     },
     {
       "model": "grok-3-thinking",
@@ -76,7 +88,7 @@
       "ifAverage": "82.47"
     },
     {
-      "model": "claude-3-7-sonnet-20250219-base",
+      "model": "claude-3-7-sonnet",
       "modelLink": "https://www.anthropic.com/news/claude-3-7-sonnet",
       "organization": "Anthropic",
       "globalAverage": "65.56",
@@ -700,5 +712,5 @@
       "ifAverage": "36.36"
     }
   ],
-  "lastUpdated": "Last Update 2/24/2025"
+  "lastUpdated": "Last Update 2/25/2025"
 }
