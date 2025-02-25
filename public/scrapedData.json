@@ -1,8 +1,20 @@
 {
   "success": true,
   "count": 59,
-  "lastScraped": "2025-02-25T00:00:22.988Z",
+  "lastScraped": "2025-02-25T02:00:15.736Z",
   "data": [
+    {
+      "model": "claude-3-7-sonnet-thinking",
+      "modelLink": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "organization": "Anthropic",
+      "globalAverage": "76.10",
+      "reasoningAverage": "87.83",
+      "codingAverage": "74.54",
+      "mathematicsAverage": "79.00",
+      "dataAnalysisAverage": "74.05",
+      "languageAverage": "59.93",
+      "ifAverage": "81.25"
+    },
     {
       "model": "o3-mini-2025-01-31-high",
       "modelLink": "https://openai.com/index/openai-o3-mini/",
@@ -26,18 +38,6 @@
       "dataAnalysisAverage": "65.47",
       "languageAverage": "65.39",
       "ifAverage": "81.55"
-    },
-    {
-      "model": "claude-3-7-sonnet-thinking",
-      "modelLink": "https://www.anthropic.com/news/claude-3-7-sonnet",
-      "organization": "Anthropic",
-      "globalAverage": "74.33",
-      "reasoningAverage": "84.58",
-      "codingAverage": "71.54",
-      "mathematicsAverage": "77.51",
-      "dataAnalysisAverage": "72.79",
-      "languageAverage": "60.96",
-      "ifAverage": "78.62"
     },
     {
       "model": "grok-3-thinking",
