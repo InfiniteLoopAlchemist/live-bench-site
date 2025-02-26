@@ -1,7 +1,7 @@
 {
   "success": true,
-  "count": 59,
-  "lastScraped": "2025-02-25T02:00:15.736Z",
+  "count": 60,
+  "lastScraped": "2025-02-26T17:00:22.015Z",
   "data": [
     {
       "model": "claude-3-7-sonnet-thinking",
@@ -41,7 +41,7 @@
     },
     {
       "model": "grok-3-thinking",
-      "modelLink": "https://x.ai/blog/grok",
+      "modelLink": "https://x.ai/blog/grok-3",
       "organization": "xAI",
       "globalAverage": "",
       "reasoningAverage": "-",
@@ -194,6 +194,18 @@
       "dataAnalysisAverage": "55.03",
       "languageAverage": "53.76",
       "ifAverage": "69.30"
+    },
+    {
+      "model": "grok-3",
+      "modelLink": "https://x.ai/blog/grok-3",
+      "organization": "xAI",
+      "globalAverage": "",
+      "reasoningAverage": "66.92",
+      "codingAverage": "54.28",
+      "mathematicsAverage": "-",
+      "dataAnalysisAverage": "-",
+      "languageAverage": "51.33",
+      "ifAverage": "-"
     },
     {
       "model": "chatgpt-4o-latest-2025-01-29",
@@ -712,5 +724,5 @@
       "ifAverage": "36.36"
     }
   ],
-  "lastUpdated": "Last Update 2/25/2025"
+  "lastUpdated": "Last Update 2/26/2025"
 }
