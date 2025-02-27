@@ -1,7 +1,7 @@
 {
   "success": true,
-  "count": 60,
-  "lastScraped": "2025-02-26T17:00:22.015Z",
+  "count": 62,
+  "lastScraped": "2025-02-27T23:00:15.951Z",
   "data": [
     {
       "model": "claude-3-7-sonnet-thinking",
@@ -74,6 +74,18 @@
       "dataAnalysisAverage": "66.56",
       "languageAverage": "46.26",
       "ifAverage": "83.16"
+    },
+    {
+      "model": "gpt-4.5-preview",
+      "modelLink": "https://openai.com/index/introducing-gpt-4-5/",
+      "organization": "OpenAI",
+      "globalAverage": "68.95",
+      "reasoningAverage": "71.08",
+      "codingAverage": "75.18",
+      "mathematicsAverage": "69.33",
+      "dataAnalysisAverage": "64.33",
+      "languageAverage": "61.45",
+      "ifAverage": "72.33"
     },
     {
       "model": "gemini-2.0-flash-thinking-exp-01-21",
@@ -290,6 +302,18 @@
       "dataAnalysisAverage": "54.45",
       "languageAverage": "45.58",
       "ifAverage": "69.63"
+    },
+    {
+      "model": "gemini-2.0-flash-lite",
+      "modelLink": "https://developers.googleblog.com/en/start-building-with-the-gemini-2-0-flash-family/",
+      "organization": "Google",
+      "globalAverage": "54.29",
+      "reasoningAverage": "44.92",
+      "codingAverage": "47.08",
+      "mathematicsAverage": "58.09",
+      "dataAnalysisAverage": "65.45",
+      "languageAverage": "33.60",
+      "ifAverage": "76.63"
     },
     {
       "model": "gemini-2.0-flash-lite-preview-02-05",
@@ -724,5 +748,5 @@
       "ifAverage": "36.36"
     }
   ],
-  "lastUpdated": "Last Update 2/26/2025"
+  "lastUpdated": "Last Update 2/27/2025"
 }
