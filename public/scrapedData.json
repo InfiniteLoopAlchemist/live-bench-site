@@ -1,7 +1,7 @@
 {
   "success": true,
-  "count": 62,
-  "lastScraped": "2025-03-08T17:00:19.365Z",
+  "count": 63,
+  "lastScraped": "2025-03-13T22:00:18.866Z",
   "data": [
     {
       "model": "claude-3-7-sonnet-thinking",
@@ -50,6 +50,18 @@
       "dataAnalysisAverage": "-",
       "languageAverage": "-",
       "ifAverage": "-"
+    },
+    {
+      "model": "qwq-32b",
+      "modelLink": "https://qwenlm.github.io/blog/qwq-32b/",
+      "organization": "Alibaba",
+      "globalAverage": "71.96",
+      "reasoningAverage": "83.50",
+      "codingAverage": "72.23",
+      "mathematicsAverage": "77.82",
+      "dataAnalysisAverage": "65.03",
+      "languageAverage": "51.35",
+      "ifAverage": "81.83"
     },
     {
       "model": "deepseek-r1",
@@ -748,5 +760,5 @@
       "ifAverage": "36.36"
     }
   ],
-  "lastUpdated": "Last Update 3/8/2025"
+  "lastUpdated": "Last Update 3/13/2025"
 }
