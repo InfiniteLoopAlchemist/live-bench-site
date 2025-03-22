@@ -1,7 +1,7 @@
 {
   "success": true,
-  "count": 59,
-  "lastScraped": "2025-03-22T16:00:12.259Z",
+  "count": 61,
+  "lastScraped": "2025-03-22T19:00:17.528Z",
   "data": [
     {
       "model": "claude-3-7-sonnet-thinking",
@@ -182,6 +182,18 @@
       "dataAnalysisAverage": "60.94",
       "languageAverage": "47.48",
       "ifAverage": "75.25"
+    },
+    {
+      "model": "perplexity-sonar-pro",
+      "modelLink": "https://perplexity.ai/",
+      "organization": "Perplexity",
+      "globalAverage": "60.27",
+      "reasoningAverage": "52.92",
+      "codingAverage": "60.13",
+      "mathematicsAverage": "55.44",
+      "dataAnalysisAverage": "59.83",
+      "languageAverage": "69.05",
+      "ifAverage": "64.24"
     },
     {
       "model": "gemini-2.0-flash-exp",
@@ -434,6 +446,18 @@
       "dataAnalysisAverage": "50.15",
       "languageAverage": "39.39",
       "ifAverage": "67.93"
+    },
+    {
+      "model": "perplexity-sonar",
+      "modelLink": "https://perplexity.ai/",
+      "organization": "Perplexity",
+      "globalAverage": "46.88",
+      "reasoningAverage": "46.25",
+      "codingAverage": "35.15",
+      "mathematicsAverage": "41.63",
+      "dataAnalysisAverage": "37.91",
+      "languageAverage": "44.12",
+      "ifAverage": "76.23"
     },
     {
       "model": "qwen2.5-coder-32b-instruct",
