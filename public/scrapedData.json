@@ -1,8 +1,20 @@
 {
   "success": true,
-  "count": 58,
-  "lastScraped": "2025-03-24T16:00:24.802Z",
+  "count": 60,
+  "lastScraped": "2025-03-26T16:00:25.388Z",
   "data": [
+    {
+      "model": "gemini-2.5-pro-exp-03-25",
+      "modelLink": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/",
+      "organization": "Google",
+      "globalAverage": "82.35",
+      "reasoningAverage": "89.75",
+      "codingAverage": "85.87",
+      "mathematicsAverage": "90.20",
+      "dataAnalysisAverage": "79.89",
+      "languageAverage": "67.82",
+      "ifAverage": "80.59"
+    },
     {
       "model": "claude-3-7-sonnet-thinking",
       "modelLink": "https://www.anthropic.com/news/claude-3-7-sonnet",
@@ -98,6 +110,18 @@
       "dataAnalysisAverage": "69.37",
       "languageAverage": "42.18",
       "ifAverage": "82.47"
+    },
+    {
+      "model": "deepseek-v3-0324",
+      "modelLink": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
+      "organization": "DeepSeek",
+      "globalAverage": "66.86",
+      "reasoningAverage": "65.83",
+      "codingAverage": "70.90",
+      "mathematicsAverage": "73.52",
+      "dataAnalysisAverage": "60.37",
+      "languageAverage": "49.07",
+      "ifAverage": "81.47"
     },
     {
       "model": "claude-3-7-sonnet",
@@ -700,5 +724,5 @@
       "ifAverage": "36.36"
     }
   ],
-  "lastUpdated": "Last Update 3/24/2025"
+  "lastUpdated": "Last Update 3/26/2025"
 }
