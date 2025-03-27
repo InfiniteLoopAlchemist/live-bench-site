@@ -1,7 +1,7 @@
 {
   "success": true,
-  "count": 60,
-  "lastScraped": "2025-03-26T16:00:25.388Z",
+  "count": 63,
+  "lastScraped": "2025-03-27T23:00:18.517Z",
   "data": [
     {
       "model": "gemini-2.5-pro-exp-03-25",
@@ -148,6 +148,18 @@
       "ifAverage": "83.38"
     },
     {
+      "model": "chatgpt-4o-latest-2025-03-27",
+      "modelLink": "https://x.com/OpenAIDevs/status/1905335104211185999?t=pmYR2_xGFyWs1xOGuNxRsw&s=19",
+      "organization": "OpenAI",
+      "globalAverage": "64.75",
+      "reasoningAverage": "64.92",
+      "codingAverage": "64.97",
+      "mathematicsAverage": "59.52",
+      "dataAnalysisAverage": "70.47",
+      "languageAverage": "56.66",
+      "ifAverage": "71.92"
+    },
+    {
       "model": "gemini-exp-1206",
       "modelLink": "https://ai.google.dev/gemini-api/docs/models/experimental-models",
       "organization": "Google",
@@ -206,6 +218,18 @@
       "dataAnalysisAverage": "60.94",
       "languageAverage": "47.48",
       "ifAverage": "75.25"
+    },
+    {
+      "model": "perplexity-sonar-pro",
+      "modelLink": "https://perplexity.ai/",
+      "organization": "Perplexity",
+      "globalAverage": "60.27",
+      "reasoningAverage": "52.92",
+      "codingAverage": "60.13",
+      "mathematicsAverage": "55.44",
+      "dataAnalysisAverage": "59.83",
+      "languageAverage": "69.05",
+      "ifAverage": "64.24"
     },
     {
       "model": "gemini-2.0-flash-exp",
@@ -446,6 +470,18 @@
       "dataAnalysisAverage": "50.15",
       "languageAverage": "39.39",
       "ifAverage": "67.93"
+    },
+    {
+      "model": "perplexity-sonar",
+      "modelLink": "https://perplexity.ai/",
+      "organization": "Perplexity",
+      "globalAverage": "46.88",
+      "reasoningAverage": "46.25",
+      "codingAverage": "35.15",
+      "mathematicsAverage": "41.63",
+      "dataAnalysisAverage": "37.91",
+      "languageAverage": "44.12",
+      "ifAverage": "76.23"
     },
     {
       "model": "qwen2.5-coder-32b-instruct",
@@ -724,5 +760,5 @@
       "ifAverage": "36.36"
     }
   ],
-  "lastUpdated": "Last Update 3/26/2025"
+  "lastUpdated": "Last Update 3/27/2025"
 }
