@@ -1,7 +1,7 @@
 {
   "success": true,
-  "count": 63,
-  "lastScraped": "2025-03-27T23:00:18.517Z",
+  "count": 65,
+  "lastScraped": "2025-03-31T22:00:15.777Z",
   "data": [
     {
       "model": "gemini-2.5-pro-exp-03-25",
@@ -206,6 +206,18 @@
       "dataAnalysisAverage": "67.55",
       "languageAverage": "40.69",
       "ifAverage": "85.79"
+    },
+    {
+      "model": "hunyuan-turbos-20250313",
+      "modelLink": "https://cloud.tencent.com/document/product/1729/104753",
+      "organization": "Tencent",
+      "globalAverage": "60.65",
+      "reasoningAverage": "53.33",
+      "codingAverage": "46.56",
+      "mathematicsAverage": "61.98",
+      "dataAnalysisAverage": "75.49",
+      "languageAverage": "50.38",
+      "ifAverage": "76.13"
     },
     {
       "model": "deepseek-v3",
@@ -652,6 +664,18 @@
       "ifAverage": "52.11"
     },
     {
+      "model": "azerogpt",
+      "modelLink": "https://azero.soundai.com/#/dashboard",
+      "organization": "SoundAI",
+      "globalAverage": "34.20",
+      "reasoningAverage": "25.25",
+      "codingAverage": "31.38",
+      "mathematicsAverage": "32.85",
+      "dataAnalysisAverage": "33.95",
+      "languageAverage": "22.45",
+      "ifAverage": "59.31"
+    },
+    {
       "model": "command-r-plus-08-2024",
       "modelLink": "https://docs.cohere.com/docs/models",
       "organization": "Cohere",
@@ -760,5 +784,5 @@
       "ifAverage": "36.36"
     }
   ],
-  "lastUpdated": "Last Update 3/27/2025"
+  "lastUpdated": "Last Update 3/31/2025"
 }
