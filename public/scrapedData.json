@@ -1,7 +1,7 @@
 {
   "success": true,
-  "count": 53,
-  "lastScraped": "2025-04-07T21:00:14.168Z",
+  "count": 55,
+  "lastScraped": "2025-04-10T21:00:13.148Z",
   "data": [
     {
       "model": "Gemini 2.5 Pro Experimental",
@@ -50,6 +50,18 @@
       "dataAnalysisAverage": "74.05",
       "languageAverage": "68.27",
       "ifAverage": "81.25"
+    },
+    {
+      "model": "Grok 3 Mini Beta (High)",
+      "modelLink": "https://x.ai/blog/grok-3",
+      "organization": "xAI",
+      "globalAverage": "68.33",
+      "reasoningAverage": "87.61",
+      "codingAverage": "39.71",
+      "mathematicsAverage": "77.00",
+      "dataAnalysisAverage": "67.87",
+      "languageAverage": "59.09",
+      "ifAverage": "78.70"
     },
     {
       "model": "DeepSeek R1",
@@ -158,6 +170,18 @@
       "dataAnalysisAverage": "60.37",
       "languageAverage": "46.82",
       "ifAverage": "81.47"
+    },
+    {
+      "model": "Grok 3 Beta",
+      "modelLink": "https://x.ai/blog/grok-3",
+      "organization": "xAI",
+      "globalAverage": "56.95",
+      "reasoningAverage": "48.53",
+      "codingAverage": "37.33",
+      "mathematicsAverage": "62.75",
+      "dataAnalysisAverage": "54.53",
+      "languageAverage": "53.80",
+      "ifAverage": "84.74"
     },
     {
       "model": "ChatGPT-4o",
@@ -640,5 +664,5 @@
       "ifAverage": "54.90"
     }
   ],
-  "lastUpdated": "Last Update 4/7/2025"
+  "lastUpdated": "Last Update 4/10/2025"
 }
