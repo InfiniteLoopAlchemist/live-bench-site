@@ -1,7 +1,7 @@
 {
   "success": true,
-  "count": 55,
-  "lastScraped": "2025-04-10T21:00:13.148Z",
+  "count": 58,
+  "lastScraped": "2025-04-14T19:00:18.465Z",
   "data": [
     {
       "model": "Gemini 2.5 Pro Experimental",
@@ -148,6 +148,18 @@
       "ifAverage": "80.06"
     },
     {
+      "model": "GPT-4.1",
+      "modelLink": "https://openai.com/index/gpt-4-1/",
+      "organization": "OpenAI",
+      "globalAverage": "58.41",
+      "reasoningAverage": "44.39",
+      "codingAverage": "42.95",
+      "mathematicsAverage": "62.39",
+      "dataAnalysisAverage": "69.13",
+      "languageAverage": "54.55",
+      "ifAverage": "77.05"
+    },
+    {
       "model": "Claude 3.7 Sonnet",
       "modelLink": "https://www.anthropic.com/news/claude-3-7-sonnet",
       "organization": "Anthropic",
@@ -194,6 +206,18 @@
       "dataAnalysisAverage": "70.47",
       "languageAverage": "49.43",
       "ifAverage": "71.92"
+    },
+    {
+      "model": "GPT-4.1 Mini",
+      "modelLink": "https://openai.com/index/gpt-4-1/",
+      "organization": "OpenAI",
+      "globalAverage": "55.55",
+      "reasoningAverage": "53.78",
+      "codingAverage": "47.57",
+      "mathematicsAverage": "58.78",
+      "dataAnalysisAverage": "64.87",
+      "languageAverage": "38.00",
+      "ifAverage": "70.31"
     },
     {
       "model": "Qwen2.5 Max",
@@ -532,6 +556,18 @@
       "ifAverage": "67.13"
     },
     {
+      "model": "GPT-4.1 Nano",
+      "modelLink": "https://openai.com/index/gpt-4-1/",
+      "organization": "OpenAI",
+      "globalAverage": "39.72",
+      "reasoningAverage": "35.58",
+      "codingAverage": "25.29",
+      "mathematicsAverage": "42.39",
+      "dataAnalysisAverage": "46.59",
+      "languageAverage": "30.96",
+      "ifAverage": "57.54"
+    },
+    {
       "model": "Claude 3.5 Haiku",
       "modelLink": "https://www.anthropic.com/claude/haiku",
       "organization": "Anthropic",
@@ -664,5 +700,5 @@
       "ifAverage": "54.90"
     }
   ],
-  "lastUpdated": "Last Update 4/10/2025"
+  "lastUpdated": "Last Update 4/14/2025"
 }
