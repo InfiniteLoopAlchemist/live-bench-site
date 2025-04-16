@@ -1,8 +1,32 @@
 {
   "success": true,
-  "count": 58,
-  "lastScraped": "2025-04-14T19:00:18.465Z",
+  "count": 60,
+  "lastScraped": "2025-04-16T20:00:16.394Z",
   "data": [
+    {
+      "model": "o3 High",
+      "modelLink": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "organization": "OpenAI",
+      "globalAverage": "81.55",
+      "reasoningAverage": "93.33",
+      "codingAverage": "73.33",
+      "mathematicsAverage": "84.67",
+      "dataAnalysisAverage": "75.80",
+      "languageAverage": "76.00",
+      "ifAverage": "86.17"
+    },
+    {
+      "model": "o4-Mini High",
+      "modelLink": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "organization": "OpenAI",
+      "globalAverage": "78.13",
+      "reasoningAverage": "88.11",
+      "codingAverage": "74.33",
+      "mathematicsAverage": "84.90",
+      "dataAnalysisAverage": "70.43",
+      "languageAverage": "66.05",
+      "ifAverage": "84.96"
+    },
     {
       "model": "Gemini 2.5 Pro Experimental",
       "modelLink": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/",
@@ -700,5 +724,5 @@
       "ifAverage": "54.90"
     }
   ],
-  "lastUpdated": "Last Update 4/14/2025"
+  "lastUpdated": "Last Update 4/16/2025"
 }
