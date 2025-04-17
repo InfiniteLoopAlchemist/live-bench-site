@@ -1,7 +1,7 @@
 {
   "success": true,
   "count": 62,
-  "lastScraped": "2025-04-16T22:00:19.284Z",
+  "lastScraped": "2025-04-17T20:00:15.427Z",
   "data": [
     {
       "model": "o3 High",
@@ -76,7 +76,7 @@
       "ifAverage": "81.55"
     },
     {
-      "model": "o3 Mini High",
+      "model": "o3-Mini High",
       "modelLink": "https://openai.com/index/openai-o3-mini/",
       "organization": "OpenAI",
       "globalAverage": "71.37",
@@ -124,7 +124,7 @@
       "ifAverage": "79.49"
     },
     {
-      "model": "o3 Mini Medium",
+      "model": "o3-Mini Medium",
       "modelLink": "https://openai.com/index/openai-o3-mini/",
       "organization": "OpenAI",
       "globalAverage": "67.16",
@@ -184,7 +184,7 @@
       "ifAverage": "83.38"
     },
     {
-      "model": "o3 Mini Low",
+      "model": "o3-Mini Low",
       "modelLink": "https://openai.com/index/openai-o3-mini/",
       "organization": "OpenAI",
       "globalAverage": "59.76",
@@ -316,7 +316,7 @@
       "ifAverage": "75.75"
     },
     {
-      "model": "o1 Mini",
+      "model": "o1-Mini",
       "modelLink": "https://platform.openai.com/docs/guides/reasoning",
       "organization": "OpenAI",
       "globalAverage": "53.43",
@@ -748,5 +748,5 @@
       "ifAverage": "54.90"
     }
   ],
-  "lastUpdated": "Last Update 4/16/2025"
+  "lastUpdated": "Last Update 4/17/2025"
 }
