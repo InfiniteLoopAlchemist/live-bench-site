@@ -1,7 +1,7 @@
 {
   "success": true,
   "count": 63,
-  "lastScraped": "2025-04-17T22:00:11.645Z",
+  "lastScraped": "2025-04-18T18:00:12.439Z",
   "data": [
     {
       "model": "o3 High",
@@ -232,7 +232,7 @@
       "ifAverage": "76.49"
     },
     {
-      "model": "DeepSeek V3",
+      "model": "DeepSeek V3.1",
       "modelLink": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
       "organization": "DeepSeek",
       "globalAverage": "57.48",
@@ -760,5 +760,5 @@
       "ifAverage": "54.90"
     }
   ],
-  "lastUpdated": "Last Update 4/17/2025"
+  "lastUpdated": "Last Update 4/18/2025"
 }
