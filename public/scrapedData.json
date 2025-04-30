@@ -1,7 +1,7 @@
 {
   "success": true,
-  "count": 44,
-  "lastScraped": "2025-04-29T23:00:20.929Z",
+  "count": 48,
+  "lastScraped": "2025-04-30T16:00:25.933Z",
   "data": [
     {
       "model": "o3 High",
@@ -74,6 +74,18 @@
       "dataAnalysisAverage": "68.47",
       "languageAverage": "62.41",
       "ifAverage": "81.83"
+    },
+    {
+      "model": "Qwen 3 235B A22B",
+      "modelLink": "https://qwenlm.github.io/blog/qwen3/",
+      "organization": "Alibaba",
+      "globalAverage": "73.23",
+      "reasoningAverage": "78.61",
+      "codingAverage": "65.32",
+      "mathematicsAverage": "78.78",
+      "dataAnalysisAverage": "68.31",
+      "languageAverage": "60.61",
+      "ifAverage": "87.73"
     },
     {
       "model": "DeepSeek R1",
@@ -220,6 +232,18 @@
       "ifAverage": "71.92"
     },
     {
+      "model": "Gemini 2.0 Flash",
+      "modelLink": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/",
+      "organization": "Google",
+      "globalAverage": "60.05",
+      "reasoningAverage": "44.25",
+      "codingAverage": "64.74",
+      "mathematicsAverage": "63.19",
+      "dataAnalysisAverage": "59.92",
+      "languageAverage": "42.39",
+      "ifAverage": "85.79"
+    },
+    {
       "model": "Qwen2.5 Max",
       "modelLink": "https://qwenlm.github.io/blog/qwen2.5-max/",
       "organization": "Alibaba",
@@ -290,6 +314,18 @@
       "dataAnalysisAverage": "47.11",
       "languageAverage": "49.65",
       "ifAverage": "75.75"
+    },
+    {
+      "model": "Step 2 16K",
+      "modelLink": "https://www.stepfun.com/#step2",
+      "organization": "StepFun",
+      "globalAverage": "54.05",
+      "reasoningAverage": "42.39",
+      "codingAverage": "57.58",
+      "mathematicsAverage": "43.68",
+      "dataAnalysisAverage": "62.35",
+      "languageAverage": "38.41",
+      "ifAverage": "79.88"
     },
     {
       "model": "GPT-4o",
@@ -424,6 +460,18 @@
       "ifAverage": "57.54"
     },
     {
+      "model": "Dracarys2 Llama 3.1 70B Instruct",
+      "modelLink": "https://huggingface.co/abacusai/Dracarys2-Llama-3.1-70B-Instruct",
+      "organization": "AbacusAI",
+      "globalAverage": "46.47",
+      "reasoningAverage": "36.67",
+      "codingAverage": "41.14",
+      "mathematicsAverage": "40.30",
+      "dataAnalysisAverage": "55.13",
+      "languageAverage": "42.37",
+      "ifAverage": "63.24"
+    },
+    {
       "model": "Mistral Small",
       "modelLink": "https://mistral.ai/news/mistral-small-3-1",
       "organization": "Mistral AI",
@@ -532,5 +580,5 @@
       "ifAverage": "55.62"
     }
   ],
-  "lastUpdated": "Last Update 4/29/2025"
+  "lastUpdated": "Last Update 4/30/2025"
 }
