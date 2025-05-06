@@ -1,7 +1,7 @@
 {
   "success": true,
-  "count": 48,
-  "lastScraped": "2025-04-30T16:00:25.933Z",
+  "count": 50,
+  "lastScraped": "2025-05-06T17:00:17.841Z",
   "data": [
     {
       "model": "o3 High",
@@ -28,6 +28,18 @@
       "ifAverage": "84.32"
     },
     {
+      "model": "Gemini 2.5 Pro Preview (2025-05-06)",
+      "modelLink": "https://developers.googleblog.com/en/gemini-2-5-pro-io-improved-coding-performance/",
+      "organization": "Google",
+      "globalAverage": "78.99",
+      "reasoningAverage": "88.25",
+      "codingAverage": "72.87",
+      "mathematicsAverage": "88.63",
+      "dataAnalysisAverage": "68.85",
+      "languageAverage": "71.81",
+      "ifAverage": "83.50"
+    },
+    {
       "model": "o4-Mini High",
       "modelLink": "https://openai.com/index/introducing-o3-and-o4-mini/",
       "organization": "OpenAI",
@@ -40,7 +52,7 @@
       "ifAverage": "84.96"
     },
     {
-      "model": "Gemini 2.5 Pro Preview",
+      "model": "Gemini 2.5 Pro Preview (2025-03-25)",
       "modelLink": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/",
       "organization": "Google",
       "globalAverage": "76.69",
@@ -290,6 +302,18 @@
       "dataAnalysisAverage": "51.42",
       "languageAverage": "43.34",
       "ifAverage": "83.76"
+    },
+    {
+      "model": "Phi-4 Reasoning Plus",
+      "modelLink": "https://huggingface.co/microsoft/Phi-4-reasoning-plus",
+      "organization": "Microsoft",
+      "globalAverage": "56.64",
+      "reasoningAverage": "57.83",
+      "codingAverage": "60.59",
+      "mathematicsAverage": "62.83",
+      "dataAnalysisAverage": "54.74",
+      "languageAverage": "30.69",
+      "ifAverage": "73.17"
     },
     {
       "model": "DeepSeek R1 Distill Llama 70B",
@@ -580,5 +604,5 @@
       "ifAverage": "55.62"
     }
   ],
-  "lastUpdated": "Last Update 4/30/2025"
+  "lastUpdated": "Last Update 5/6/2025"
 }
